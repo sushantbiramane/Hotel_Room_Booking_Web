@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+/* Table Container */
+table {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Table Caption */
+caption {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3b82f6;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Header Row */
+thead {
+  background-color: #e5e7eb;
+}
+
+thead th {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #d1d5db;
+}
+
+/* Center only the Action column (6th column) */
+thead th:nth-child(6),
+tbody td:nth-child(6) {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Table Body Rows */
+tbody td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #4b5563;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #f9fafb;
+  transition: 0.3s;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-buttons form {
+  display: inline-block;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+.update-btn {
+  background-color: #10b981;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #059669;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px;
+    text-align: right;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #6b7280;
+  }
+
+  .action-buttons {
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

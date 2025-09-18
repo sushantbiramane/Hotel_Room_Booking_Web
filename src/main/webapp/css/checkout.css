@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.checkout-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.booking-details, .payment-section {
+    padding: 30px;
+    flex: 1;
+}
+
+.booking-details {
+    border-right: 1px solid #e0e0e0;
+    background: #fafafa;
+}
+
+.booking-details h2, .payment-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.booking-details p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.room-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.payment-section label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.payment-section input,
+.payment-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-section .row {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-section .col {
+    flex: 1;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
