@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sona | Template</title>
 
-    <!-- Google Font -->
+     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
 
@@ -27,7 +27,11 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Google Font -->
+
+<!-- Css Styles -->
+
 </head>
 <body>
  <!-- Page Preloder -->
@@ -647,14 +651,25 @@
     </div>
     <!-- Search model end -->
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+   <!-- Remove or don't include wow.min.js -->
+<!-- <script src="js/wow.min.js"></script> -->
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- jQuery Plugins -->
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- Your custom script -->
+<script src="js/main.js"></script>
+
+
+
 </body>
 </html>

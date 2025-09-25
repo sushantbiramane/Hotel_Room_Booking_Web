@@ -1,6 +1,5 @@
 package com.example.demo.controller;
 
-import java.time.LocalDate;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
@@ -10,12 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.demo.bean.BookingRegistrationBean;
@@ -32,7 +28,6 @@ import com.razorpay.RazorpayClient;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import jakarta.servlet.http.HttpSession;
-import jakarta.servlet.http.HttpServletRequest;
 
 
 @Controller

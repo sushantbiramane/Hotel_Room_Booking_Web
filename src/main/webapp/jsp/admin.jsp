@@ -19,8 +19,8 @@
   <li><a href="dashboard.jsp" class="menu-link">Dashboard</a></li>
   <li><a href="showbooking" class="menu-link">Bookings</a></li>
   <li><a href="rooms.jsp" class="menu-link">Rooms</a></li>
-  <li><a href="customers.jsp" class="menu-link">Customers</a></li>
-  <li><a href="settings.jsp" class="menu-link">Settings</a></li>
+  <li><a href="showregistration.jsp" class="menu-link">Customers</a></li>
+  <li><a href="#" class="menu-link">Settings</a></li>
   <li><a href="logout.jsp" class="menu-link logout-btn">Logout</a></li>
 </ul>
 
