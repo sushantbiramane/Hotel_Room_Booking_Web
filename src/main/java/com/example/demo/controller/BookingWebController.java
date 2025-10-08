@@ -52,6 +52,7 @@ public class BookingWebController {
 	
 	@RequestMapping("/index")
 	public String Home(){
+		System.out.println("Home");
 		return "index";
 		
 	}
