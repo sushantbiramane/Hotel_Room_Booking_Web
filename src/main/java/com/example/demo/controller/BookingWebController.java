@@ -49,10 +49,7 @@ public class BookingWebController {
 	JavaMailSender javamailSender;
 	
 	
-	@RequestMapping("/")
-public String root() {
-    return "index";
-}
+	
 
 	@RequestMapping("/index")
 	public String Home(){
