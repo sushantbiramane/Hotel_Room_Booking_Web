@@ -20,7 +20,7 @@
     <description>Spring Boot JSP Hotel Booking Application</description>
 
     <!-- Use WAR packaging for JSP support -->
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>17</java.version>
