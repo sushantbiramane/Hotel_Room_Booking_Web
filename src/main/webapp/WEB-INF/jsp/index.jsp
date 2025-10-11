@@ -94,7 +94,7 @@
         </div>
         <ul class="top-widget">
             <li><i class="fa fa-phone"></i> (+91)87884 29901</li>
-            <li><i class="fa fa-envelope"></i> sb0206@gmail.com</li>
+            <li><i class="fa fa-envelope"></i> biramanesushant94@gmail.com</li>
         </ul>
     </div>
     <!-- Offcanvas Menu Section End -->
