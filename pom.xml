@@ -6,12 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.3.4</version>
-    <relativePath/>
-</parent>
-
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.0</version>
+        <relativePath/>
+    </parent>
 
     <groupId>com.example</groupId>
     <artifactId>BookingWeb</artifactId>
@@ -20,7 +19,7 @@
     <description>Spring Boot JSP Hotel Booking Application</description>
 
     <!-- Use WAR packaging for JSP support -->
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>17</java.version>
